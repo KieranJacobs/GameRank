@@ -9,3 +9,5 @@ __pycache__/
 # Local System Metadata
 .DS_Store
 Thumbs.db
+
+*.json
