@@ -21,20 +21,20 @@ This project was built as a small solo learning exercise to practice working wit
 ### 1. Environment Configuration
 Clone the repository and install the required dependencies:
 
-`\`\`bash
+```bash
 conda install pandas requests
 pip install python-dotenv
-`\`\`
+```
 
 Create a `.env` file in the root directory and add your RAWG API key:
-`\`\`text
+```text
 RAWG_API_KEY=your_api_key_here
-\`\`\`
+```
 
 ### 2. Execution Sequence
 Run the pipeline steps from your terminal:
-\`\`\`bash
+```bash
 python extract.py # Generates raw_games.json
 python clean.py # Generates clean_games.json
 python analyze.py # Prints summary analytics to the console
-\`\`\`
+```
