@@ -1,0 +1,11 @@
+# Secrets & Configurations
+.env
+
+# Environment Dependencies
+.venv/
+__pycache__/
+*.pyc
+
+# Local System Metadata
+.DS_Store
+Thumbs.db
